@@ -122,3 +122,23 @@ header {
   width: 35px;
   height: 35px;
 }
+
+.Investment-section {
+  background-color: #e41382;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.Investment-text {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.Investment--text {
+  color: #fff;
+}
+
+.laptop-img {
+  width: 100%;
+}
