@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+header {
+  background-color: blue;
+  padding: 0.6rem 3rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+.nav-item {
+  background-color: #ffffffc4;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 16px hsla(230, 75%, 32%, 0.15);
+  padding: 4rem 5rem;
+  gap: 2rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: -100%;
+  display: none;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.btn-icon {
+  background-color: transparent;
+  border: none;
+}
+
+.closeNavigation {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.sidebarMenu {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-heading {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.8rem;
+}
+
+.hero-text {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.btn-hero {
+  background-color: aqua;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+.btn-side {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0.3rem 0.8rem;
+  border-radius: 2rem;
+}

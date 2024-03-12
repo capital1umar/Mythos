@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <a class="nav-logo" href="#">Mythos</a>
+        <div>
+          <ul class="nav-item openNav">
+            <button
+              onclick="closeNavigation()"
+              class="btn-icon"
+              id="mobile-nav"
+            >
+              <ion-icon
+                class="sidebarMenu closeNavigation"
+                name="close-outline"
+              ></ion-icon>
+            </button>
+            <li class="nav-list"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-list"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-list"><a class="nav-link" href="#">Service</a></li>
+            <li class="nav-list"><a class="nav-link" href="#">Feature</a></li>
+          </ul>
+
+          <button class="btn-icon" id="mobileNav">
+            <ion-icon
+              onclick="openNavigation()"
+              class="sidebarMenu"
+              name="menu-outline"
+            ></ion-icon>
+          </button>
+        </div>
+      </nav>
+      <div class="hero">
+        <div>
+          <p class="hero-heading">Find that elusive unicoin</p>
+          <p class="hero-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam,
+            atque optio architecto veniam corporis debitis dicta esse
+            cupiditate? .
+          </p>
+          <button class="btn-hero">try for free</button>
+          <button class="btn-side">try free</button>
+        </div>
+        <div>
+          <img class="hero-img" src="img/unicon-removebg-preview.png" />
+        </div>
+      </div>
+    </header>
+
+    <script src="script.js"></script>
+  </body>
+</html>
