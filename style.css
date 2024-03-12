@@ -12,6 +12,7 @@ html {
 header {
   background-color: blue;
   padding: 0.6rem 3rem;
+  margin-bottom: 1rem;
 }
 
 .navigation {
@@ -106,4 +107,18 @@ header {
   border: 1px solid #fff;
   padding: 0.3rem 0.8rem;
   border-radius: 2rem;
+}
+
+.how-its-work {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  gap: 1.5rem;
+  padding: 0.6rem 3rem;
+}
+
+.icon {
+  color: #15bbbb;
+  width: 35px;
+  height: 35px;
 }
