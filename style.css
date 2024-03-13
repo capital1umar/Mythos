@@ -180,19 +180,19 @@ header {
 .get-stated-section {
   background: linear-gradient(to right, rgb(2, 2, 100), 90%, steelblue);
   text-align: center;
-  padding: 3rem 0;
+  padding: 3rem 4rem;
 }
 
 .get-stated-title {
   font-size: 1.6rem;
   font-weight: 800;
   color: #fff;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.8rem;
 }
 
 .get-stated-text {
   color: #fff;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.8rem;
 }
 
 .btn-get {
