@@ -142,3 +142,36 @@ header {
 .laptop-img {
   width: 100%;
 }
+
+.feature-section {
+  padding: 2rem 6rem;
+}
+
+.feature-img {
+  width: 120px;
+  height: 100px;
+}
+
+.feature-text {
+  font-size: 16px;
+  margin-bottom: 1.4rem;
+}
+
+.ceo {
+  text-align: center;
+}
+
+.ceo-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+
+.ceo-name {
+  color: #444;
+  margin-top: 0.4rem;
+}
+
+.ceo-title {
+  color: #444;
+}
