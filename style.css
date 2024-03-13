@@ -200,3 +200,43 @@ header {
   border-radius: 1rem;
   border: none;
 }
+
+.footer-section {
+  padding: 2rem 4rem;
+}
+
+.footer--heading {
+  margin-bottom: 1rem;
+}
+
+.footer-heading-text {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+ul blockquote {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.footer-heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #444;
+}
