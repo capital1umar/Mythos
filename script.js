@@ -1,8 +1,8 @@
 const mobileNav = document.getElementById("mobileNav");
-const openNav = document.querySelector(".openNav");
+const openNav = document.querySelector("#openNav");
 
 function openNavigation() {
-  const openNav = document.querySelector(".openNav");
+  const openNav = document.querySelector("#openNav");
   openNav.style.display = "flex";
   mobileNav.style.display = "none";
 }
