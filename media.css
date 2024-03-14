@@ -1,4 +1,7 @@
 @media screen and (min-width: 480px) {
+  .sidebarMenu {
+  }
+
   .nav-item {
     display: flex;
     flex-direction: row;
@@ -19,9 +22,6 @@
     display: none;
   }
 
-  .nav-list {
-  }
-
   .navigation {
     display: flex;
     align-items: center;
@@ -37,6 +37,16 @@
     grid-row: 1;
   }
 
+  .feature-section {
+    padding: 2rem 8rem;
+  }
+
+  .ceo {
+    display: flex;
+    gap: 1rem;
+    text-align: start;
+  }
+
   .how-its-work {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -46,6 +56,12 @@
   }
 
   .hero--text .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .footer-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
