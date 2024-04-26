@@ -1,7 +1,4 @@
 @media screen and (min-width: 480px) {
-  .sidebarMenu {
-  }
-
   .nav-item {
     display: flex;
     flex-direction: row;

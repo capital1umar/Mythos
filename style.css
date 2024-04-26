@@ -39,11 +39,16 @@ header {
   top: 0;
   right: 0;
   width: -100%;
-  display: none;
+}
+
+.nav-list {
+  color: white;
+  font-weight: 700;
 }
 
 .nav-link {
   text-decoration: none;
+  color: white;
 }
 
 .btn-icon {
@@ -117,6 +122,16 @@ header {
   padding: 0.6rem 3rem;
 }
 
+.how-its-work,
+p {
+  line-height: 1.4rem;
+}
+
+.how-its-work,
+h3 {
+  margin-bottom: 1rem;
+}
+
 .icon {
   color: #15bbbb;
   width: 35px;
@@ -124,7 +139,12 @@ header {
 }
 
 .Investment-section {
-  background-color: #e41382;
+  height: 700px;
+  background-image: url("img/code.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 3rem;
+
   text-align: center;
   padding: 3rem 0;
 }
@@ -137,10 +157,6 @@ header {
 
 .Investment--text {
   color: #fff;
-}
-
-.laptop-img {
-  width: 100%;
 }
 
 .feature-section {

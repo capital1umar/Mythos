@@ -1,5 +1,6 @@
 const mobileNav = document.getElementById("mobileNav");
 const openNav = document.querySelector("#openNav");
+const sidebarMenu = document.querySelector(".sidebarMenu ");
 
 function openNavigation() {
   const openNav = document.querySelector("#openNav");
